@@ -3,7 +3,7 @@ function run() {
   // filling up a list of valid numbers
   let userList = [];
   let i = 0;
-  while (i < 3) {
+  while (i < 5) {
     let userInput = prompt("Enter a number : ");
     if (!isNaN(userInput)) {
       userList.push(userInput);
